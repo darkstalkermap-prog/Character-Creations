@@ -2,6 +2,10 @@
 
 A reusable character library and a standalone playable testing ground.
 
+**[Play the testing ground in your browser](https://darkstalkermap-prog.github.io/Character-Creations/)**. Open it in a desktop browser with WebGL 2, then click inside the arena. Use WASD to move, Shift to run and Space to jump. Use the animation menu to inspect individual clips.
+
+[Download the character files and Windows testing ground](https://github.com/darkstalkermap-prog/Character-Creations/releases/tag/v0.1.0).
+
 ![The Wanderer](characters/giantborn-wanderer/previews/wanderer.png)
 
 ## First character: Giantborn's Wanderer
@@ -50,6 +54,8 @@ Steps are for jumping and collision tests; automatic stair climbing and foot-pla
 Preserved `characters/giantborn-wanderer/source/assets/giant/` and `source/data/appearance/` retain the original paths, part IDs, masks, rig and appearance definitions. Use them with Giantborn's existing pipeline. The assembled GLB is a standalone asset, not a drop-in replacement for its modular creator. Integrating new materials or authoring edits requires updating the game's pipeline and checking clothing, first-person splitting and growth deformation there.
 
 ### Rebuild and validate
+
+The browser uses the same Godot project and character catalogue. To update it, install Godot 4.7.2 and the matching export templates, import the project, then run `godot --headless --path testing-ground --export-release Web`. Commit the regenerated `docs/` folder. GitHub Pages serves that folder from the main branch.
 
 Use Python 3.13 with `bpy==5.3.0`, numpy, scipy and Pillow in an isolated build environment.
 
