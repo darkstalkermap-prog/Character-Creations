@@ -1,0 +1,17 @@
+{
+  "id": "giantborn-wanderer",
+  "name": "The Wanderer",
+  "version": "0.1.0",
+  "source_repository": "https://github.com/darkstalkermap-prog/Giantborne-Age-of-Titans",
+  "source_commit": "bb73c37e635fb70d2d07dc310a3cbd9df37c4add",
+  "height_metres": 3.6576,
+  "rig_bones": 71,
+  "animation_clips": 28,
+  "face_controls": ["jaw", "chin", "nose", "brow", "cheeks", "age"],
+  "game_model": "exports/wanderer.glb",
+  "fbx_model": "exports/wanderer.fbx",
+  "authoring_scene": "authoring/wanderer.blend",
+  "testing_ground": "../../testing-ground/project.godot",
+  "skin_map_resolution": 2048,
+  "status": "First playable library release; Unreal import and full Giantborn reintegration unverified"
+}

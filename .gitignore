@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.blend1
+.venv/
+.godot/
+*.glb.import
+engine/
+*.log
+*.import
+/testing-ground/models/*.png

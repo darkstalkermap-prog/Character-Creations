@@ -1,0 +1,5 @@
+{
+  "characters": [
+    {"id":"giantborn-wanderer","name":"Giantborn · The Wanderer","model":"res://models/wanderer.glb","height":3.6576,"speed":4.0,"run_speed":7.5}
+  ]
+}
